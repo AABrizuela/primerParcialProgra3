@@ -1,1 +1,0 @@
-a:2:{i:0;O:7:"Cliente":2:{s:5:"email";s:17:"adrian@correo.com";s:5:"clave";s:5:"12345";}i:1;O:7:"Cliente":2:{s:5:"email";s:20:"alejandro@correo.com";s:5:"clave";s:5:"12345";}}

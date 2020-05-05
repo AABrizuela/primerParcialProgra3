@@ -1,1 +1,0 @@
-a:3:{i:0;O:7:"Materia":3:{s:6:"nombre";s:12:"laboratorio1";s:12:"cuatrimestre";s:7:"primero";s:2:"id";i:2;}i:1;O:7:"Materia":3:{s:6:"nombre";s:12:"laboratorio1";s:12:"cuatrimestre";s:7:"primero";s:2:"id";i:1;}i:2;O:7:"Materia":3:{s:6:"nombre";s:12:"laboratorio1";s:12:"cuatrimestre";s:7:"primero";s:2:"id";i:36;}}

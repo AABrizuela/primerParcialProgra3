@@ -6,7 +6,7 @@ use \Firebase\JWT\JWT;
 class Auth
 {
     public static function login($email,$clave,$key){
-        $rta = Io::LeerCosas('data/users.txt');        
+        $rta = Io::LeerCosas('data/users.json');        
         $retorno = false;
         if($rta) {
             foreach ($rta as $cliente) {

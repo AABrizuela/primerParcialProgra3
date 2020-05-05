@@ -115,36 +115,6 @@ class Io
 
         return $array;
     }
-
-    public static function MarcaDeAgua($rutaBase, $rutaMarca, $rutaSalida, $margenX, $margenY, $opacidad)
-    {
-        $base  = imagecreatefromjpeg($rutaBase);
-        $marca = imagecreatefrompng($rutaMarca);
-
-        $Iax = imagesx($base);
-        $Iay = imagesy($base);
-
-        $marca=imagescale($marca, $Iax/4, $Iay/4);
-
-        $ax = imagesx($marca);
-        $ay = imagesy($marca);
-
-        if(file_exists($rutaBase) && file_exists($rutaMarca))
-        {
-            if($opacidad < 0 || $opacidad > 100)
-            {
-                $opacidad = 0;
-            }
-            imagecopymerge($base,$marca,imagesx($base)-$ax-$margenX,imagesy($base)-$ay-$margenY,0,0,$ax,$ay,$opacidad);
-            imagepng($base,$rutaSalida);
-            imagedestroy($base);
-            return true;
-        }
-        else
-        {
-            return false;
-        }
-    }
 }
 
 ?>
